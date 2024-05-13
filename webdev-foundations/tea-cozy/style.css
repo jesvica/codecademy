@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+/* header styling */
+header {
+    height: 69px;
+    /* position: fixed; */
+    display: flex;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header ul {
+    display: flex;
+    font-size: 22px;
+    font-family: Helvetica;
+    list-style: none;
+}
+
+header ul li {
+    align-items: center;
+}
+
+header ul li a {
+    color: seashell;
+    cursor: pointer;
+}
+
+/* body styling */
+/* hero */
+.hero img {
+    height: 700px;
+    width: auto;
+    opacity: 0.9;
+}
+
+.hero-text {
+    color: seashell;
+}
