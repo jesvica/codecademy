@@ -13,7 +13,6 @@ section {
 /* header styling */
 header {
     height: 69px;
-    /* position: fixed; */
     display: flex;
     border-bottom: 1px solid seashell;
 }
@@ -40,7 +39,7 @@ header ul li a {
 }
 
 /* body styling */
-/* hero */
+/* hero section */
 
 .hero {
     color: seashell;
@@ -84,4 +83,36 @@ header ul li a {
 
 figcaption {
     margin-top: 10px;
+}
+
+/* locations section */
+
+.locations {
+    position: relative;
+    display: inline-block;
+}
+.locations img {
+    display: block;
+    height: 700px;
+    width: auto;
+}
+
+.locations-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.address-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.address-info {
+    background-color: black;
+    width: 300px;
+    margin: 0 20px;
+    opacity: 0.9;
 }
