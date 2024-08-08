@@ -42,6 +42,7 @@ header {
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
   height: 85px;
+  z-index: 1;
 }
 
 header .content {
@@ -59,8 +60,16 @@ header nav ul {
   justify-content: space-between;
 }
 
+.desktop.logo {
+  color: #4A4A4A;
+  font-size: 1.5rem;
+  font-family: "Roboto Mono", monospace;
+}
+
 nav li {
   padding-left: 3.5rem;
+  color: #4A4A4A;
+  font-family: "Roboto", monospace;
 }
 
 nav a {
@@ -113,12 +122,17 @@ header .mobile {
 }
 
 /* Sign Up Section */
+.main-content {
+  background-image: url(../images/banner-landingpage.jpg);
+}
+
 
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   height: 43.5rem;
+  margin-left: 100px;
 }
 
 #sign-up-cta {
