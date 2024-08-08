@@ -239,10 +239,15 @@ header .mobile {
   background-color: white;
 }
 
+.feature img {
+  height: 400px;
+  width: auto;
+}
+
 .feature .image-container {
   width: 90%;
   height: 65%;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .feature h2 {
@@ -310,8 +315,13 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
+}
+
+#filters-section img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -346,8 +356,16 @@ header .mobile {
 
 /* Quotes Section */
 
+.quote {
+  font-style: italic;
+  font-size: 30px;
+  line-height: 1.1;
+  margin-right: 30px;
+}
+
 #quotes-section {
   background-color: #f3f3f3;
+  padding: 80px 0;
 }
 
 #quotes-section content {
